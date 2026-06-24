@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Catálogo Virtual | Chocolate Divertido OLENKA
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<header class="catalog-header">
+
+<a href="index.html" class="back-btn">
+<i class="fas fa-arrow-left"></i>
+</a>
+
+<h1>
+Catálogo Virtual
+</h1>
+
+<a href="https://wa.me/51914450843"
+class="whatsapp-header">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</header>
+
+<section class="search-section">
+
+<div class="search-box">
+
+<i class="fas fa-search"></i>
+
+<input
+type="text"
+id="searchInput"
+placeholder="Buscar producto...">
+
+</div>
+
+</section>
+
+<section class="filters">
+
+<button
+class="filter-btn active"
+data-filter="all">
+
+Todos
+
+</button>
+
+<button
+class="filter-btn"
+data-filter="minidonas">
+
+Mini Donas
+
+</button>
+
+<button
+class="filter-btn"
+data-filter="combos">
+
+Combos
+
+</button>
+
+<button
+class="filter-btn"
+data-filter="bebidas">
+
+Bebidas
+
+</button>
+
+<button
+class="filter-btn"
+data-filter="chocolates">
+
+Chocolate
+
+</button>
+
+</section>
+
+<section
+class="catalog-grid"
+id="catalogGrid">
+
+<!-- MINI DONAS -->
+
+<div id="minidonas"
+class="product-card minidonas">
+
+<div class="offer-badge">
+-15%
+</div>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQazsQJbJ81yNuynPsaJa1Z8Z241dnNXgQfVTz9TZq4xCY84wj6eew9ZSI&s=10">
+
+<div class="product-info">
+
+<h3>
+Mini Donas Clasicas
+</h3>
+
+<p>
+12 Mini Donas Clasicas
+</p>
+
+<div class="price-row">
+
+<span class="price">
+S/25.90
+</span>
+
+<span class="old-price">
+S/30.00
+</span>
+
+</div>
+
+<div class="quantity-box">
+
+<button class="minus">-</button>
+
+<input
+type="number"
+value="1"
+min="1"
+class="qty">
+
+<button class="plus">+</button>
+
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Mini Donas Clásicas"
+data-price="25.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card minidonas">
+
+<div class="offer-badge">
+-10%
+</div>
+
+<img src="https://i.ytimg.com/vi/R-atsr9C3uA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDNj3yI_pN_mru3LQWyxvfIH2BJPA">
+
+<div class="product-info">
+
+<h3>
+Mini Donas Chocolate
+</h3>
+
+<p>
+Cobertura Chocolate
+</p>
+
+<div class="price-row">
+
+<span class="price">
+S/28.90
+</span>
+
+</div>
+
+<div class="quantity-box">
+
+<button class="minus">-</button>
+
+<input
+type="number"
+value="1"
+min="1"
+class="qty">
+
+<button class="plus">+</button>
+
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Mini Donas Chocolate"
+data-price="28.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card minidonas">
+
+<img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800">
+
+<div class="product-info">
+
+<h3>
+Mini Donas Oreo
+</h3>
+
+<p>
+Cobertura Oreo
+</p>
+
+<div class="price-row">
+
+<span class="price">
+S/29.90
+</span>
+
+</div>
+
+<div class="quantity-box">
+
+<button class="minus">-</button>
+
+<input
+type="number"
+value="1"
+min="1"
+class="qty">
+
+<button class="plus">+</button>
+
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Mini Donas Oreo"
+data-price="29.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card minidonas">
+
+<img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800">
+
+<div class="product-info">
+
+<h3>
+Mini Donas Arcoíris
+</h3>
+
+<p>
+Decoradas
+</p>
+
+<div class="price-row">
+
+<span class="price">
+S/31.90
+</span>
+
+</div>
+
+<div class="quantity-box">
+
+<button class="minus">-</button>
+
+<input
+type="number"
+value="1"
+min="1"
+class="qty">
+
+<button class="plus">+</button>
+
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Mini Donas Arcoíris"
+data-price="31.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+<!-- COMBOS -->
+
+<div id="combos" class="product-card combos">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5WvyiI-GnT8Dz_NIXVbZ7qvh3bL4yMFQmO_xdhfbPhw&s=10">
+
+<div class="product-info">
+
+<h3>Combo Familiar</h3>
+
+<p>24 Mini Donas</p>
+
+<div class="price-row">
+<span class="price">S/49.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Combo Familiar"
+data-price="49.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card combos">
+
+<img src="https://static8.depositphotos.com/1027198/947/i/450/depositphotos_9472377-stock-photo-donuts-and-coffee-cup.jpg">
+
+<div class="product-info">
+
+<h3>Combo Dulce</h3>
+
+<p>6 Donas + Cafe</p>
+
+<div class="price-row">
+<span class="price">S/69.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Combo Dulce"
+data-price="69.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card combos">
+
+<img src="https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?w=800">
+
+<div class="product-info">
+
+<h3>Combo Premium</h3>
+
+<p>48 Mini Donas</p>
+
+<div class="price-row">
+<span class="price">S/89.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Combo Premium"
+data-price="89.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<!-- BEBIDAS -->
+
+<div id="bebidas" class="product-card bebidas">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkuJjxvrSiuj3qmxEha9ZBM47G8uMRdu6uN8TeUOLZq8eqXdKcxI9qHCQ&s=10">
+
+<div class="product-info">
+
+<h3>Café Clasico </h3>
+
+<p>Bebida caliente</p>
+
+<div class="price-row">
+<span class="price">S/9.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Café Caliente"
+data-price="9.90">
+
+Pedir Ahora ☕
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card bebidas">
+
+<img src="https://i.pinimg.com/474x/bd/7f/51/bd7f510891a3730ce99883373594211e.jpg">
+
+<div class="product-info">
+
+<h3>Chocolate Caliente ♨️</h3>
+
+<p>Bebida Caliente</p>
+
+<div class="price-row">
+<span class="price">S/10.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Chocolate Caliente "
+data-price="10.90">
+
+Pedir Ahora ♨️ 
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card bebidas">
+
+<img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=800">
+
+<div class="product-info">
+
+<h3>Mocaccino</h3>
+
+<p>Café con chocolate</p>
+
+<div class="price-row">
+<span class="price">S/11.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Mocaccino"
+data-price="11.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card bebidas">
+
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800">
+
+<div class="product-info">
+
+<h3>Chocolate Caliente</h3>
+
+<p>Chocolate Premium</p>
+
+<div class="price-row">
+<span class="price">S/12.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Chocolate Caliente"
+data-price="12.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card bebidas">
+
+<img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800">
+
+<div class="product-info">
+
+<h3>Frappé</h3>
+
+<p>Bebida fría</p>
+
+<div class="price-row">
+<span class="price">S/13.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Frappé"
+data-price="13.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<!-- CHOCOLATES -->
+
+<div id="chocolates" class="product-card chocolates">
+
+<img src="https://img-global.cpcdn.com/recipes/63fc7f2307febc2c/1200x630cq80/photo.jpg">
+
+<div class="product-info">
+
+<h3>Sublime de Chocolate</h3>
+
+<p>Chocolate artesanal</p>
+
+<div class="price-row">
+<span class="price">S/14.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Chocolate Premium"
+data-price="14.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card chocolates">
+
+<img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800">
+
+<div class="product-info">
+
+<h3>Chocolate Blanco</h3>
+
+<p>Chocolate cremoso</p>
+
+<div class="price-row">
+<span class="price">S/15.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Chocolate Blanco"
+data-price="15.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card chocolates">
+
+<img src="https://images.unsplash.com/photo-1511381939415-e44015466834?w=800">
+
+<div class="product-info">
+
+<h3>Chocolate con Almendras</h3>
+
+<p>Chocolate gourmet</p>
+
+<div class="price-row">
+<span class="price">S/16.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Chocolate con Almendras"
+data-price="16.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+<div class="product-card chocolates">
+
+<img src="https://images.unsplash.com/photo-1511381939415-e44015466834?w=800">
+
+<div class="product-info">
+
+<h3>Chocolate Trufado</h3>
+
+<p>Chocolate especial</p>
+
+<div class="price-row">
+<span class="price">S/18.90</span>
+</div>
+
+<div class="quantity-box">
+<button class="minus">-</button>
+<input type="number" value="1" min="1" class="qty">
+<button class="plus">+</button>
+</div>
+
+<button
+class="buy-btn whatsapp-order"
+data-name="Chocolate Trufado"
+data-price="18.90">
+
+Pedir Ahora
+
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="floating-whatsapp">
+
+<a href="https://wa.me/51999999999">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
